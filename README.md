@@ -3,10 +3,16 @@ Scripts to display new books added to CSU Collections.  In this implementation, 
 # IMPLEMENTATION INSTRUCTIONS
 1: CREATE YOUR ANALYTICS QUERY.  These should be based on items added recently filtered by call number.
 ![new books query](https://github.com/CSU-ULMS/New_Books/blob/master/A_Query.PNG)
-Note also that the OCLC Number field requires special attention:
+
+-- Note also that the OCLC Number field requires special attention:
+
+
 ![oclc field](https://github.com/CSU-ULMS/New_Books/blob/master/OCLC_Number.PNG)
 
-2: CREATE MULTIPLE QUERY PHP SCRIPTS TO PULL XML FILES FOR EACH QUERY.
+-- Example queries can also be found here in the CSU shared folder:/shared/Community/Reports/Institutions/CalState/NewBooks
 
-3: SET UP CRON JOBS TO RUN THE QUERY FILES. 
+2: CREATE MULTIPLE QUERY PHP SCRIPTS TO PULL XML FILES FOR EACH QUERY.  You may want to separate your lists by location or format, this can be done by creating separate query PHP scripts for each Analytics query.
+
+3: SET UP CRON JOBS TO RUN THE QUERY FILES. Since some of these queries may take a while to load, you will want to run these by cron jobs to load the XML in the background.
+
 

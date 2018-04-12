@@ -4,6 +4,7 @@ $no = $_GET['no'];
 $no = filter_var ( $no, FILTER_SANITIZE_STRING);
 
 $alma_analytics_result_array = simplexml_load_file($no.'_books.xml');
+//The above line will pull in the xml file based on how the current URL is strucutured (e.g. "NewBooksTable.php?no=a").
 
 $rowset = $alma_analytics_result_array->QueryResult->ResultXml->rowset;
 

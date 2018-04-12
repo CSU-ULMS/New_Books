@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><report><QueryResult>
+  <ResumptionToken>339FE6473EB6B8321C2119763B665699928A63B41B40A2A6CC601ED21B0805A5380875B0FABD6D9224D02708872ECBF2163D8CC5881FFC5A208117904853089A</ResumptionToken>
+  <IsFinished>true</IsFinished>
+  <ResultXml>
+    <rowset xmlns="urn:schemas-microsoft-com:xml-analysis:rowset">
+      <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:saw-sql="urn:saw-sql" targetNamespace="urn:schemas-microsoft-com:xml-analysis:rowset">
+        <xsd:complexType name="Row">
+          <xsd:sequence>
+            <xsd:element maxOccurs="1" minOccurs="0" name="Column0" saw-sql:columnHeading="0" saw-sql:displayFormula="saw_0" saw-sql:tableHeading="" saw-sql:type="integer" type="xsd:int"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="Column1" saw-sql:columnHeading="MMS Id" saw-sql:displayFormula="saw_1" saw-sql:tableHeading="Bibliographic Details" saw-sql:type="varchar" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="Column2" saw-sql:columnHeading="Title" saw-sql:displayFormula="saw_2" saw-sql:tableHeading="Bibliographic Details" saw-sql:type="varchar" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="Column3" saw-sql:columnHeading="Permanent Call Number Type" saw-sql:displayFormula="saw_3" saw-sql:tableHeading="Holding Details" saw-sql:type="varchar" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="Column4" saw-sql:columnHeading="Permanent Call Number" saw-sql:displayFormula="saw_4" saw-sql:tableHeading="Holding Details" saw-sql:type="varchar" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="Column5" saw-sql:columnHeading="Item Creation Date" saw-sql:displayFormula="saw_5" saw-sql:tableHeading="Item Creation Date" saw-sql:type="date" type="xsd:date"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="Column6" saw-sql:columnHeading="Location Code" saw-sql:displayFormula="saw_6" saw-sql:tableHeading="Location" saw-sql:type="varchar" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="Column7" saw-sql:columnHeading="Location Name" saw-sql:displayFormula="saw_7" saw-sql:tableHeading="Location" saw-sql:type="varchar" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="0" name="Column8" saw-sql:columnHeading="De" saw-sql:displayFormula="saw_8" saw-sql:tableHeading="" saw-sql:type="varchar" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:schema>
+      <Row>
+        <Column0>0</Column0>
+        <Column1>991018989569702917</Column1>
+        <Column2>Chūō kōron = The Central review.</Column2>
+        <Column3>Library of Congress classification</Column3>
+        <Column4>AP95.J2 C3</Column4>
+        <Column5>2018-02-07</Column5>
+        <Column6>asp</Column6>
+        <Column7>Asian Collection/1st Floor Periodicals</Column7>
+        <Column8>3760507</Column8>
+      </Row>
+      <Row>
+        <Column0>0</Column0>
+        <Column1>991023337517802917</Column1>
+        <Column2>Engaging heritage, engaging communities /</Column2>
+        <Column3>Library of Congress classification</Column3>
+        <Column4>AM7 .O5 2017</Column4>
+        <Column5>2018-01-26</Column5>
+        <Column6>cds3</Column6>
+        <Column7>3rd Floor Books</Column7>
+        <Column8>(OCoLC)950637682</Column8>
+      </Row>
+      <Row>
+        <Column0>0</Column0>
+        <Column1>991023336725402917</Column1>
+        <Column2>The ideas industry /</Column2>
+        <Column3>Library of Congress classification</Column3>
+        <Column4>AZ362 .D74 2017</Column4>
+        <Column5>2018-01-23</Column5>
+        <Column6>cds3</Column6>
+        <Column7>3rd Floor Books</Column7>
+        <Column8>(OCoLC)960030674</Column8>
+      </Row>
+      <Row>
+        <Column0>0</Column0>
+        <Column1>991023325222702917</Column1>
+        <Column2>The case for the humanities : pedagogy, polity, interdisciplinarity /</Column2>
+        <Column3>Library of Congress classification</Column3>
+        <Column4>AZ103 .T68 2016</Column4>
+        <Column5>2017-11-17</Column5>
+        <Column6>cds3</Column6>
+        <Column7>3rd Floor Books</Column7>
+        <Column8>(OCoLC)953423798</Column8>
+      </Row>
+      <Row>
+        <Column0>0</Column0>
+        <Column1>991023277819202917</Column1>
+        <Column2>The Foundation directory.</Column2>
+        <Column3>Library of Congress classification</Column3>
+        <Column4>AS911.A2 F65</Column4>
+        <Column5>2017-09-14</Column5>
+        <Column6>ref</Column6>
+        <Column7>Reference</Column7>
+        <Column8>(OCoLC)918159</Column8>
+      </Row>
+      <Row>
+        <Column0>0</Column0>
+        <Column1>991023295827502917</Column1>
+        <Column2>Shōken jitsumu yōgo jiten /</Column2>
+        <Column3>Library of Congress classification</Column3>
+        <Column4>AG4513 .S52 1981</Column4>
+        <Column5>2017-09-06</Column5>
+        <Column6>asn</Column6>
+        <Column7>Asian Collection/1st Floor</Column7>
+        <Column8>(OCoLC)27881579</Column8>
+      </Row>
+      <Row>
+        <Column0>0</Column0>
+        <Column1>991018989569702917</Column1>
+        <Column2>Chūō kōron = The Central review.</Column2>
+        <Column3>Library of Congress classification</Column3>
+        <Column4>AP95.J2 C3</Column4>
+        <Column5>2017-08-25</Column5>
+        <Column6>asp</Column6>
+        <Column7>Asian Collection/1st Floor Periodicals</Column7>
+        <Column8>3760507</Column8>
+      </Row>
+      <Row>
+        <Column0>0</Column0>
+        <Column1>991023249729702917</Column1>
+        <Column2>The John McPhee reader /</Column2>
+        <Column3>Library of Congress classification</Column3>
+        <Column4>AC8 .M266 1976b</Column4>
+        <Column5>2017-08-07</Column5>
+        <Column6>cds3</Column6>
+        <Column7>3rd Floor Books</Column7>
+        <Column8>(OCoLC)2523390</Column8>
+      </Row>
+      <Row>
+        <Column0>0</Column0>
+        <Column1>991018989569702917</Column1>
+        <Column2>Chūō kōron = The Central review.</Column2>
+        <Column3>Library of Congress classification</Column3>
+        <Column4>AP95.J2 C3</Column4>
+        <Column5>2017-05-19</Column5>
+        <Column6>asp</Column6>
+        <Column7>Asian Collection/1st Floor Periodicals</Column7>
+        <Column8>3760507</Column8>
+      </Row>
+      <Row>
+        <Column0>0</Column0>
+        <Column1>991018989569702917</Column1>
+        <Column2>Chūō kōron = The Central review.</Column2>
+        <Column3>Library of Congress classification</Column3>
+        <Column4>AP95.J2 C3</Column4>
+        <Column5>2017-05-04</Column5>
+        <Column6>asp</Column6>
+        <Column7>Asian Collection/1st Floor Periodicals</Column7>
+        <Column8>3760507</Column8>
+      </Row>
+      <Row>
+        <Column0>0</Column0>
+        <Column1>991001623469702917</Column1>
+        <Column2>Hitotsubashi journal of arts &amp; sciences.</Column2>
+        <Column3>Library of Congress classification</Column3>
+        <Column4>AS551 .H5</Column4>
+        <Column5>2017-05-04</Column5>
+        <Column6>cds3</Column6>
+        <Column7>3rd Floor Books</Column7>
+        <Column8>(OCoLC)1752169</Column8>
+      </Row>
+    </rowset>
+  </ResultXml>
+</QueryResult></report>

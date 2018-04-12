@@ -3,7 +3,9 @@ set_time_limit(0);
 
 $ch = curl_init();
 $url = 'https://api-eu.hosted.exlibrisgroup.com/almaws/v1/analytics/reports';
-$queryParams = '?' . urlencode('path') . '=' . urlencode('/shared/San Diego State University Library/Reports/NewBooks/ByLCClassification/A') . '&' . urlencode('limit') . '=' . urlencode('250') . '&' . urlencode('col_names') . '=' . urlencode('true') . '&' . urlencode('apikey') . '=' . urlencode('l7xx263d03a9ce444beebe54e52aa34002f3');
+//Change the code below to point to your new books analytics query.
+//Also, don't forget to add your Analytics API key.
+$queryParams = '?' . urlencode('path') . '=' . urlencode('/path/to/AnalyticsReport/A') . '&' . urlencode('limit') . '=' . urlencode('250') . '&' . urlencode('col_names') . '=' . urlencode('true') . '&' . urlencode('apikey') . '=' . urlencode('[PUT YOUR API KEY HERE]');
 curl_setopt($ch, CURLOPT_URL, $url . $queryParams);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
 curl_setopt($ch, CURLOPT_HEADER, FALSE);

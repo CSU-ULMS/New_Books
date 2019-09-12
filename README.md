@@ -19,7 +19,7 @@ https://serials.sdsu.edu/AnalyticsReporting/NewBooks/NewBooksTable.php?no=a
 
 2: CREATE MULTIPLE QUERY PHP SCRIPTS TO PULL XML FILES FOR EACH QUERY.  You may want to separate your lists by location or format, this can be done by creating separate query PHP scripts for each Analytics query.
 
-3: SET UP CRON JOBS TO RUN THE QUERY FILES. Since some of these queries may take a while to load, you will want to run these by cron jobs to load the XML in the background.  So, for example, SDSU runs daily cron jobs to run the query.php files.  These queries write to the xml files which are then read by the NewBooksTable.php file.  
+3: SET UP CRON JOBS TO RUN THE QUERY FILES. Since some of these queries may take a while to load, you will want to run these by cron jobs to load the XML in the background.  So, for example, SDSU runs daily cron jobs to run the query.php files.  These queries write to the xml files which are then read by the NewBooksTable.php file.  So, in the example above, the "?no=a" at the end of the URL will tell the NewBooksTable.php file to read from the a_books.xml file.    
 
 Figure 1: Crontab for the SDSU New Books Feeds
 ![new books crontab](https://github.com/CSU-ULMS/New_Books/blob/master/NewBooksCrontab.PNG)

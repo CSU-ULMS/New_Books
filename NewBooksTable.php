@@ -61,7 +61,9 @@ foreach ($rowset->Row as $row_number){
       echo '<td>';
       echo '<img src="https://books.google.com/books?vid=OCLC:';
       $col8_name[$i] = $row_number->Column8->__toString();
-      $imageoclc[$i] = str_replace('(OCoLC)', '', $col8_name[$i]);
+      //$imageoclc[$i] = str_replace('(OCoLC)', '', $col8_name[$i]);
+	//*The (OCoLC) prefix must be removed from the OCLC field in order for the Google Books Covers to Show *//
+      $imageoclc[$i] = preg_replace('/[^0-9]/', '', $col8_name[$i]);
       echo $imageoclc[$i];
       echo '&printsec=frontcover&img=1&zoom=1"></img>&nbsp;&nbsp;'; 
       echo '<div><h2>';

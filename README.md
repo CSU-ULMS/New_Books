@@ -2,6 +2,8 @@
 Scripts to display new books added to CSU Collections.  In this implementation, the NewBooksTable.php file serves as a view for multiple Analytics queries (as can be pulled from a separate file).
 
 # Working Example: 
+See: https://libguides.sdsu.edu/new-books
+Here is an example of the PHP page:
 https://serials.sdsu.edu/AnalyticsReporting/NewBooks/NewBooksTable.php?no=a
 
 # IMPLEMENTATION INSTRUCTIONS
